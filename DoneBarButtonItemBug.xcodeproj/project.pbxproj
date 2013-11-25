@@ -19,6 +19,7 @@
 		E8397CE81843D1A60041692A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8397CD01843D1A60041692A /* UIKit.framework */; };
 		E8397CF01843D1A60041692A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8397CEE1843D1A60041692A /* InfoPlist.strings */; };
 		E8397CF21843D1A60041692A /* DoneBarButtonItemBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8397CF11843D1A60041692A /* DoneBarButtonItemBugTests.m */; };
+		E8397CFD1843D1BE0041692A /* JPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8397CFC1843D1BE0041692A /* JPSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E8397CED1843D1A60041692A /* DoneBarButtonItemBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoneBarButtonItemBugTests-Info.plist"; sourceTree = "<group>"; };
 		E8397CEF1843D1A60041692A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8397CF11843D1A60041692A /* DoneBarButtonItemBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneBarButtonItemBugTests.m; sourceTree = "<group>"; };
+		E8397CFB1843D1BE0041692A /* JPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSViewController.h; sourceTree = "<group>"; };
+		E8397CFC1843D1BE0041692A /* JPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				E8397CDC1843D1A60041692A /* JPSAppDelegate.m */,
 				E8397CDE1843D1A60041692A /* Images.xcassets */,
 				E8397CD31843D1A60041692A /* Supporting Files */,
+				E8397CFB1843D1BE0041692A /* JPSViewController.h */,
+				E8397CFC1843D1BE0041692A /* JPSViewController.m */,
 			);
 			path = DoneBarButtonItemBug;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				E8397CDD1843D1A60041692A /* JPSAppDelegate.m in Sources */,
 				E8397CD91843D1A60041692A /* main.m in Sources */,
+				E8397CFD1843D1BE0041692A /* JPSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
